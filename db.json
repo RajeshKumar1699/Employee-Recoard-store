@@ -1,0 +1,100 @@
+{
+  "employeeList": [
+    {
+      "employeeName": "rajesh",
+      "category": "Tester",
+      "experiance": "Experiance",
+      "date": "2022-04-11T18:30:00.000Z",
+      "salary": 100,
+      "comment": "good",
+      "id": 1
+    },
+    {
+      "employeeName": "arjeet",
+      "category": "Project Manager",
+      "experiance": "freshers",
+      "date": "2022-04-11T18:30:00.000Z",
+      "salary": 424245,
+      "comment": "sdfvsdvsdvcsd",
+      "id": 3
+    },
+    {
+      "employeeName": "Aawesh",
+      "category": "Developer",
+      "experiance": "Experiance",
+      "date": "2022-04-20T18:30:00.000Z",
+      "salary": 368635,
+      "comment": "sdcsdc",
+      "id": 5
+    },
+    {
+      "employeeName": "Samantha",
+      "category": "Developer",
+      "experiance": "freshers",
+      "date": "2022-04-27T18:30:00.000Z",
+      "salary": 4444444,
+      "comment": "csdfreasrgvev",
+      "id": 6
+    },
+    {
+      "employeeName": "rajesh",
+      "category": "Tester",
+      "experiance": "Experiance",
+      "date": "2022-04-11T18:30:00.000Z",
+      "salary": 22155,
+      "comment": "good person",
+      "id": 7
+    },
+    {
+      "employeeName": "nav",
+      "category": "Project Manager",
+      "experiance": "Experiance",
+      "date": "2022-04-21T18:30:00.000Z",
+      "salary": 5863653465,
+      "comment": "sdzfgszdfSAfcAdc",
+      "id": 10
+    },
+    {
+      "employeeName": "ankit",
+      "category": "Project Manager",
+      "experiance": "freshers",
+      "date": "2022-04-14T18:30:00.000Z",
+      "salary": 453653563,
+      "comment": "goog",
+      "id": 11
+    }
+  ],
+  "signup": [
+    {
+      "fname": "Rajesh",
+      "lname": "kumar",
+      "email": "rajesh@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "fname": "rakesh",
+      "lname": "kumar",
+      "email": "ajay@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "fname": "ankit",
+      "lname": "kumar",
+      "email": "ankit@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
