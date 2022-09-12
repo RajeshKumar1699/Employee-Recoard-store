@@ -1,0 +1,56 @@
+#content{
+  position: fixed;
+// right: 10%;
+// left: auto;
+top: 0px;
+// bottom:50px;
+height: 7%;
+}
+
+
+
+
+.example-spacer {
+      flex: 1 1 auto;
+  }
+
+
+  section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  #chatBot {
+    position: fixed;
+    right: 30px;
+    bottom: 35px;
+    border-radius: 50px;
+
+    // background-color: rgb(61, 4, 61);
+    // font-size: 20px;
+    // color: white;
+    // padding-left: 5px;
+    // padding-bottom: 5px;
+    // text-align: center;
+  }
+  
+  .chatbot_logo {
+    padding-left: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    border: none;
+
+  }
+  

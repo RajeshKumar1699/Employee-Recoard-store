@@ -1,0 +1,50 @@
+
+<h1>Add Employee details  </h1>
+<div mat-dialog-content>
+ <form [formGroup]="employeeForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Employee name</mat-label>
+        <input formControlName="employeeName" matInput placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Employee Designatation</mat-label>
+       <mat-select formControlName="category" placeholder="Category">
+           <mat-option value="Developer">Developer</mat-option>
+           <mat-option value="Tester">Tester</mat-option>
+           <mat-option value="Project Manager">Project Manager</mat-option>
+       </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Date of joining</mat-label>
+        <input formControlName="date" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <label>
+          <h3>Experiance</h3>
+          <mat-radio-group formControlName="experiance"  class="example-radio-group">
+              <mat-radio-button class="example-radio-button" *ngFor="let experiance of ExperianceType" [value]="experiance">
+                {{experiance}}
+              </mat-radio-button>
+          </mat-radio-group>
+      </label>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Salary</mat-label>
+        <input formControlName="salary" matInput type="number"  placeholder="Placeholder">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Any Comment</mat-label>
+      <textarea formControlName="comment" matInput></textarea>
+      </mat-form-field>
+ </form>
+
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close> cancle</button>
+    <button mat-raised-button color="primary" (click)="addEmployee()"> {{actionbtn}}</button>
+
+</div>

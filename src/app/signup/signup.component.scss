@@ -1,0 +1,56 @@
+// .example-container .mat-form-field + .mat-form-field {
+//     margin-left: 2%;
+//   }
+
+.container{
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(178, 205, 205);
+  }
+
+
+#emailinput{
+//   margin-left: 10%;
+  width: 100%;
+}
+#pwdinput{
+    width: 100%;
+}
+
+  .example-card {
+    max-width: 350px;
+    margin-left: 36%;
+    margin-top: 8%;
+    // margin-bottom: 12%;
+  }
+  
+  .example-header-image {
+    background-image: url('../../assets/1606905546274_bot-logo-2.png');
+    background-size: cover;
+  }
+  
+
+  .action{
+    margin-left: 39%;
+    // align-content: center;
+  }
+  .action2{
+    margin-left: 40%;
+  }
+
+
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }

@@ -1,0 +1,55 @@
+<div class="container">
+<mat-card class="example-card">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Signup</mat-card-title>
+        <mat-card-subtitle> we are happy to conect with you</mat-card-subtitle>
+    </mat-card-header>
+
+    <div class="example-container">
+
+        <form class="example-form" [formGroup]="signUpForm" (ngSubmit)="signUp()">
+
+
+
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>First name</mat-label>
+                <input matInput required formControlName="fname">
+               
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width" appearance="outline">
+             <mat-label>Last Name </mat-label>
+            <input matInput required formControlName="lname">
+            </mat-form-field>
+
+
+
+            <div class="example-container">
+                <mat-form-field appearance="outline" id="emailinput">
+                    <mat-label>Enter your email</mat-label>
+                    <input formControlName="email" matInput placeholder="pat@example.com" required>
+                    <!-- <span *ngIf="email.invalid"> email required</span> -->
+                </mat-form-field>
+
+                <mat-form-field appearance="outline" id="pwdinput">
+                    <mat-label>Enter password</mat-label>
+                    <input formControlName="password" matInput type="password"  required>
+                   
+                </mat-form-field>
+
+            </div>
+
+            <mat-card-actions class="action">
+                <button mat-stroked-button color="primary" type="submit">signup</button>
+        
+            </mat-card-actions>
+
+        </form>
+    </div>
+  
+    <mat-card-actions class="action2">
+        <a routerLink="/login"> Already a user</a>
+    </mat-card-actions>
+</mat-card>
+</div>
